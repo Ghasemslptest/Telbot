@@ -50,7 +50,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 def main():
     # توکن بات رو از متغیر محیطی بگیر
-    BOT_TOKEN = os.getenv('7621656542:AAHB3BbB0kQ41HIa7-V9T8GJK0gzPs8dBLI')
+    BOT_TOKEN = os.getenv('BOT_TOKEN')
     
     if not BOT_TOKEN:
         print("❌ خطا: BOT_TOKEN تنظیم نشده!")
